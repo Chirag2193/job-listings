@@ -108,6 +108,25 @@
   margin-left: 0.5rem;
 }
 
+.job-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill {
+  border: 1px solid white;
+  padding: 4px;
+  font-size: 12px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
